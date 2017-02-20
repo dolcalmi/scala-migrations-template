@@ -23,7 +23,7 @@ You will need the following things properly installed on your computer.
 
 * `git clone git@github.com:dolcalmi/scala-migrations-template.git`
 * change into the new directory
-* `rm -rf .git && git init && npm init` (optional, make it yours)
+* `rm -rf .git && git init` (optional, make it yours)
 * `docker-compose up`(check docker-compose.yml for details. Port 3306 must be free in localhost). If you have a test mysql server you dont need to run this command but you have to modify [migrations.conf](db/config/migrations.conf)
 * `sbt`
 * `db migrate` (run migrations in db/migrations/)
