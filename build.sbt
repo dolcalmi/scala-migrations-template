@@ -3,7 +3,7 @@ import Dependencies._
 lazy val root = (project in file(".")).
 aggregate(myApp)
 
-lazy val myApp = (project in file("my-root-app")).
+lazy val myApp = (project in file("my-app")).
   settings(
     inThisBuild(List(
       organization := "com.github.dolcalmi",
