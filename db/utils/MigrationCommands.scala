@@ -34,8 +34,7 @@ class MigrationCommands(arguments: scala.collection.Seq[String]) extends Scallop
              |Restore the database to the original status
            """.stripMargin)
   }
-  // val migrate = trailArg[Long](required)
-  // val rollback = trailArg[Int]()
+
   addSubcommand(newCommand)
   addSubcommand(migrateCommand)
   addSubcommand(rollbackCommand)
